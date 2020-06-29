@@ -142,7 +142,11 @@ p{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	background-attachment: fixed;
+}
+@media (min-width: 980px){
+.ibg {
+    background-attachment: fixed;
+}
 }
 .ibg img {
 	display: none;
