@@ -356,6 +356,7 @@ form{
 	color: #fff;
 	width: 100%;
 	box-sizing: border-box;
+	border: 2px solid transparent;
 }
 
 input:focus {
