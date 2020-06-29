@@ -351,9 +351,15 @@ form{
 	border-radius: 7px;
 	color: #fff;
 	width: 100%;
+	box-sizing: border-box;
 }
 
-
+input:focus {
+    outline: 0;
+}
+.E-mail:focus {
+    border-color: rgb(194, 189, 189);
+}
 .subscribe_btn{
 	display: flex;
 	justify-content: center;
