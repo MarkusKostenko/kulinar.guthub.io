@@ -27,3 +27,14 @@ $(document).ready(function(){
   	});
 });
 
+// убираем placeholder
+$('input').focus(function (e) {
+	var $self = $(this);
+	$self.data('data-value', $self.attr('placeholder'));
+	$self.attr('placeholder', '');
+});
+$('input').blur(function (e) {
+	var $self = $(this);
+
+	$self.attr('placeholder', $self.data('data-value'));
+});
