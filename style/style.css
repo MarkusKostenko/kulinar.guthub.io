@@ -143,11 +143,7 @@ p{
 	background-size: cover;
 	background-position: center;
 }
-@media (min-width: 980px){
-.ibg {
-    background-attachment: fixed;
-}
-}
+
 .ibg img {
 	display: none;
 
@@ -527,7 +523,11 @@ input:focus {
 }
 
 
-
+@media (min-width: 980px){
+.ibg {
+    background-attachment: fixed;
+}
+}
 
 @media screen and (max-width:590px){
 	/*Блоки постов в один ряд*/
